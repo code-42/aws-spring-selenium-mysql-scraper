@@ -44,6 +44,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+<!-- 	
+		org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.aws.context.support.io.ResourceLoaderBeanPostProcessor#0': Cannot resolve reference to bean 'amazonS3' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'amazonS3': Invocation of init method failed; nested exception is java.lang.IllegalStateException: There is no EC2 meta data available, because the application is not running in the EC2 environment. Region detection is only possible if the application is running on a EC2 instance
+	
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-aws</artifactId>
@@ -51,7 +55,8 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-aws-jdbc</artifactId>
-		</dependency>
+		</dependency> 
+-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
